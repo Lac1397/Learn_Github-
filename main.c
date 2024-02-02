@@ -1,7 +1,14 @@
 #include<stdio.h>
-void main()
+int main()
 {
-    int a;
-    printf("WE ARE LEARNING GITHUB!");
-    scanf(%d,&a);
+int num1,num2,result;
+
+  printf("enter the first number:");
+  scanf("%d",&num1);
+  printf("enter the second number:");
+  scanf("%d",&num2);
+  result=num1*num2;
+  printf("multiplication result: %d\n",result);
+  return 0;
+    
 }

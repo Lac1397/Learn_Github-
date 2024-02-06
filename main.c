@@ -1,14 +1,16 @@
 #include<stdio.h>
 int main()
 {
-int num1,num2,result;
-
-  printf("enter the first number:");
-  scanf("%d",&num1);
-  printf("enter the second number:");
-  scanf("%d",&num2);
-  result=num1*num2;
-  printf("multiplication result: %d\n",result);
-  return 0;
+    int a=25,b=5;
+    printf("a+b = %d\n", a+b);
+    printf("a-b = %d\n" ,a-b);
+    printf("a*b = %d\n" ,a*b);
+    printf("a/b = %d\n", a/b);
+    printf("+a = %d\n", +a);
+    printf("-a = %d\n", -a);
+    printf("a++ = %d\n", a++);
+    printf("a-- = %d\n", a--);
+    return 0;
     
+
 }
